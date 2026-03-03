@@ -48,6 +48,8 @@ h1{
 .button{
     padding: 0.5rem;
     border-radius: 10px;
+    border: 0;
+    font-weight: 700;
     background-color: var(--pokemonyellow);
     color: var(--pokemonblue);
 }
