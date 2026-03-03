@@ -45,11 +45,11 @@ function renderCard(data) {
     imgEl.alt = data.name;
 
     // Mappa ut typerna (eftersom det kan vara flera)
-    typeEl.textContent = data.types.map(t => t.type.name).join(", ");
+    typeEl.textContent = `Type: ${data.types.map(t => t.type.name).join(", ")}`;
 
     // Vikten i API:et är i hektogram, så vi delar med 10 för att få kg
-    weightEl.textContent = data.weight / 10;
-    heightEl.textContent = data.height;
+    weightEl.textContent = `Weight: ${data.weight / 10}`;
+    heightEl.textContent = `Height: ${data.height}`;
 }
 
 button.addEventListener("click", getPokemon);
