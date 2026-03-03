@@ -49,6 +49,7 @@ function renderCard(data) {
 
     // Vikten i API:et är i hektogram, så vi delar med 10 för att få kg
     weightEl.textContent = data.weight / 10;
+    heightEl.textContent = data.height;
 }
 
 button.addEventListener("click", getPokemon);
