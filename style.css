@@ -36,6 +36,8 @@ header{
 }
 .searchteam{
     display: flex;
+    margin-top: 1rem;
+    gap: 1rem;
 }
 
 h1{
@@ -47,6 +49,7 @@ h1{
 
 .button{
     padding: 0.5rem;
+    margin-left: ;
     border-radius: 10px;
     border: 0;
     font-weight: 700;
