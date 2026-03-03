@@ -70,7 +70,7 @@ h1{
     background-color: var(--pokemonblue);
     color: var(--pokemonyellow);
     border-radius: 10px;
-    border: 1px solid;
+    box-shadow: 1px 1px 10px var(--pokemonyellow);
     width: 30rem;
     height: 30rem;
     flex-direction: column;
@@ -101,6 +101,7 @@ h2{
 }
 
 footer{
+    margin-top: 2rem;
     width: 100%;
     height: 10rem;
     background-image: url("https://wallpaperaccess.com/full/8611.jpg");
