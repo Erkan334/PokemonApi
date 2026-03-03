@@ -5,6 +5,12 @@
     --pokemonlightyellow: #c7a008;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 header{
     background-color: var(--pokemonblue);
     color: var(--pokemonyellow);
@@ -13,7 +19,7 @@ header{
 
 .logo{
     background-image: url("https://blog.logomyway.com/wp-content/uploads/2021/05/pokemon-logo-png.png");
-    
+
 }
 
 h1{
