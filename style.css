@@ -19,12 +19,12 @@ header{
 }
 
 .logo{
-    border: 1px solid;
+    width: 20%;
+    height: 5rem;
     background-image: url(https://blog.logomyway.com/wp-content/uploads/2021/05/pokemon-logo-png.png);
-    background-size: cover;
     background-position: center;
-    width: 500px;
-    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .hero{
@@ -57,11 +57,12 @@ h1{
 
 
 
-
 .card{
     background-color: var(--pokemonblue);
     color: var(--pokemonyellow);
     border-radius: 10px;
+    border: 1px solid;
+    
 }
 h2{
     font-size: 1.5rem;
