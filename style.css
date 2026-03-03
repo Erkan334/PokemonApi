@@ -32,6 +32,10 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+}
+.searchteam{
+    display: flex;
 }
 
 h1{
