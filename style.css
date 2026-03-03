@@ -5,14 +5,20 @@
     --pokemonlightyellow: #c7a008;
 }
 
+header{
+    background-color: var(--pokemonblue);
+    color: var(--pokemonyellow);
+    padding: 2rem;
+}
+
+.logo{
+    background-image: url("https://blog.logomyway.com/wp-content/uploads/2021/05/pokemon-logo-png.png");
+    
+}
+
 h1{
     color: var(--pokemonlightblue);
     font-size: 3rem;
-}
-
-.header{
-    background-color: var(--pokemonblue);
-    color: var(--pokemonyellow);
 }
 
 .card{
