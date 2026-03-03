@@ -33,7 +33,7 @@ h1{
     text-align: center;
     font-size: 3rem;
     margin-top: 2rem;
-    text-shadow: 5px 5px 10px var(--pokemonyellow);
+    text-shadow: 2px 2px 5px var(--pokemonyellow);
 }
 
 .card{
