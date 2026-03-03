@@ -18,8 +18,8 @@ header{
 }
 
 .logo{
-    background-image: url("https://blog.logomyway.com/wp-content/uploads/2021/05/pokemon-logo-png.png");
-
+    background-image: url(https://blog.logomyway.com/wp-content/uploads/2021/05/pokemon-logo-png.png);
+    width: 100px;
 }
 
 h1{
