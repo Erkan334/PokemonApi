@@ -46,7 +46,8 @@ h1{
 }
 
 .button{
-    padding: 2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
     background-color: var(--pokemonyellow);
     color: var(--pokemonblue);
 }
