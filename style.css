@@ -60,26 +60,33 @@ h1{
     width: 100%;
     display: flex;
     justify-content: center;
+
 }
 
 .card{
     display: flex;
-    justify-content: center;
+    align-items: center;
     background-color: var(--pokemonblue);
     color: var(--pokemonyellow);
     border-radius: 10px;
     border: 1px solid;
     width: 30rem;
     height: 40rem;
+    flex-direction: column;
     
+}
+
+.card section{
+    background-color: url("https://i.pinimg.com/736x/34/81/af/3481af3e44269a6c702729c5e54f5bab.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 .image{
     margin-top: 1rem;
     border: 1px solid;
-    width: 90%;
-    height: 15rem;
-
+    width: 20rem;
+    object-fit: fill;
 }
 h2{
     font-size: 1.5rem;
