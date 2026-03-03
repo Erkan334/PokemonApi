@@ -4,3 +4,22 @@
     --pokemonlightblue: #3466AF;
     --pokemonlightyellow: #c7a008;
 }
+
+h1{
+    color: var(--pokemonlightblue);
+    font-size: 3rem;
+}
+
+.header{
+    background-color: var(--pokemonblue);
+    color: var(--pokemonyellow);
+}
+
+.card{
+    background-color: var(--pokemonblue);
+    color: var(--pokemonyellow);
+    border-radius: 10px;
+}
+h2{
+    font-size: 2rem;
+}
