@@ -28,13 +28,23 @@ header{
     height: 200px;
 }
 
+.hero{
+    text-align: center;
+}
+
 h1{
     color: var(--pokemonlightblue);
-    text-align: center;
     font-size: 3rem;
     margin-top: 2rem;
     text-shadow: 2px 2px 5px var(--pokemonyellow);
 }
+
+.button{
+    
+}
+
+
+
 
 .card{
     background-color: var(--pokemonblue);
