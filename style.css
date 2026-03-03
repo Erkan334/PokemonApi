@@ -15,11 +15,17 @@ header{
     background-color: var(--pokemonblue);
     color: var(--pokemonyellow);
     padding: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .logo{
+    border: 1px solid;
     background-image: url(https://blog.logomyway.com/wp-content/uploads/2021/05/pokemon-logo-png.png);
-    width: 100px;
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    height: 200px;
 }
 
 h1{
